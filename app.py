@@ -22,7 +22,7 @@ if btn and user_image is not None:
 		if 'dominant_race' in user_selected_items:
 			emotion_label='Race: '+str(result[0]['dominant_race']).title()
 			st.write(emotion_label)
-			cv2.putText(image,emotion_label, (x, y+h+110), cv2.FONT_ITALIC,1 ,(255,255,255), 2)
+			cv2.putText(image,emotion_label, (x, y), cv2.FONT_ITALIC,1 ,(255,255,255), 2)
 	col1,col2=st.columns(2)
 	with col1:
 		st.info('Original Image')
