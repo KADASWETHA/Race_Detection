@@ -2,7 +2,7 @@ import streamlit as st
 from deepface import DeepFace
 import cv2
 import numpy as np
-st.markdown(f'''
+st.markdown(f'''<p class="glowing-text">
 <h1 align='center'>Race Detection System</h1>''',unsafe_allow_html=True)
 
 
