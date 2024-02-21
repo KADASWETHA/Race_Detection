@@ -29,7 +29,7 @@ glowing_text_style = '''
 
 
 st.markdown(glowing_text_style, unsafe_allow_html=True)
-st.markdown(f'<p class="glowing-text"><h1 align='center'>Race Detection System</h1></p>',unsafe_allow_html=True)
+st.markdown(f'<p class="glowing-text"><h1 align="center">Race Detection System</h1></p>',unsafe_allow_html=True)
 
 
 cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
