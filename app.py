@@ -34,7 +34,7 @@ st.markdown(f'<p class="glowing-text"><h1 align="center">Race Detection System</
 
 cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
-user_image=st.file_uploader('Please upload your image',type=['jpg','jpeg','png','tiff','psd','pdf','eps','indd','ai'])
+user_image=st.file_uploader('Please upload your image',type=['jpg','jpeg','png','tiff','psd','pdf','eps','indd','ai','avif'])
 btn=st.button('Predict')
 if btn and user_image is not None:
 	bytes_data = user_image.getvalue()
